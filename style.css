@@ -7,10 +7,12 @@ body {
 
 .first-title {
     text-align: center;
+   
 }
 .top-container {
     display:flex;
     justify-content:space-evenly;
+    font-size:2em;
 }
 .container {
     display:flex;
@@ -21,7 +23,7 @@ body {
 
 .bordered-img {
     border: 5px solid #0e0404;
-    border-radius: 8px; /*this works to round the borders*/
+    border-radius: 20px; /*this works to round the borders*/
 }
 
 .image-container {
@@ -30,5 +32,25 @@ body {
     font-weight: 700;
     font-style: italic;
     margin-top: 12px;
+}
+
+.gabe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #0e0404;
+    border-radius: 8px;
+    width:400px;
+    height:auto;
+}
+
+.back {
+    text-align: center;
+    font-size: 3em;
+}
+
+.descrip {
+    text-align: center;
+    font-size: 3em;
 }
 
